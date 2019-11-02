@@ -81,8 +81,8 @@ header .overlay {
 }
 
 section.pricing {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: #673AB7;
+  background: linear-gradient(to right, #673AB7, #512DA8);
 }
 
 .pricing .card {
@@ -144,6 +144,11 @@ section.pricing {
 }
 
 section.featured {
-  background: #f2f2f2;
-  background: linear-gradient(to right, #e5e5e5, #f2f2f2);
+  background: #FFFFFF;
+  background: linear-gradient(to right, #ECE9E6, #ffffff);
+}
+
+section.about {
+  background: #FFFFFF;
+  background: linear-gradient(to right, #ECE9E6, #ffffff);
 }
