@@ -70,9 +70,9 @@ header .overlay {
 }
 
 #discoverBtn {
-    transition: transform 250ms;
+    transition: transform 500ms ease-in-out;
 }
 #discoverBtn:hover{
     transform: translateY(25px);
-    transition-duration: 250ms;
+    transition-duration: 500ms;
 }
