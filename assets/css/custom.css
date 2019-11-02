@@ -49,6 +49,9 @@ header .overlay {
 .spacing{
     padding-top: 25px !important;
 }
+.spacing-lg{
+    padding-top: 63px !important;
+}
 .btn-circle {
     width: 30px;
     height: 30px;
