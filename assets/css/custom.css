@@ -152,6 +152,16 @@ section.about {
   background: #FFFFFF;
   background: linear-gradient(to right, #ECE9E6, #ffffff);
 }
+
+section.bread {
+  background: #673AB7;
+  background: linear-gradient(to right, #673AB7, #512DA8);
+}
+
+ol[data-label="breadcrumb"]{
+    margin-bottom: 0;
+}
+
 @media (max-width: 991.98px) {
     section.pricing {
         background: #673AB7;
@@ -166,5 +176,10 @@ section.about {
     section.about {
         background: #FFFFFF;
         background: linear-gradient(to right, #ECE9E6, #ffffff);
+    }
+    
+    section.bread {
+        background: #673AB7;
+        background: linear-gradient(to right, #673AB7, #512DA8);
     }
 }
