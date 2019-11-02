@@ -182,4 +182,8 @@ ol[data-label="breadcrumb"]{
         background: #673AB7;
         background: linear-gradient(to right, #673AB7, #512DA8);
     }
+    
+    ol[data-label="breadcrumb"]{
+        margin-bottom: 0;
+    }
 }
