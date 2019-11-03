@@ -308,17 +308,30 @@
                     </div>
                     <div class="col-12 d-lg-none">
                         <h1>Contact us</h1>
-                        <p class="lead">FoxStudioLabs is a small webdevelopment company who want to make simple but beautiful websites</p>
+                        <p class="lead">Fill in the form and we'll reach out to you soon!</p>
                         <hr class="my-4">
-                        <p>
-                            Every day our team of developers is looking for new ways to make your business grow and get more traffic than ever before.
-                            <br><br>
-                            Our team is highly experienced in the field of webdevelopment. They are always motivated to create the best and most stunning websites for your company. All with maximum precision. 
-                            <br><br>
-                            If you need a website for your small business to let people know of your business. No problem! FoxStudioLabs will create a beautiful one-page website which will display all the info your potential customers need to know. One-page websites are one of the most popular websites nowadays.
-                            <br><br>
-                            If you have a large company that wants to expand their business to the internet. We can build a beautiful webshop for you. Even with a dedicated admin panel where you can create products, see a live stock, track payments. We even can setup a integration with PayPal for easier and safer checkout
-                        </p>
+                        <form method="post" autocomplete="off" id="contactForm" name="contactFormMobile">
+                            <div class="row align-self-stretch">
+                                <div class="col-12">
+                                    <legend>Personal details</legend>
+                                    <label for="name">Your full name<sup style="color: red">*</sup></label>
+                                    <input class="form-control" name="name" placeholder="E.g. John Doe" type="text" required>
+                                    <br>
+                                    <label for="email">Your email<sup style="color: red">*</sup></label>
+                                    <input class="form-control" name="email" placeholder="someone@example.com" type="email" required>
+                                    <br>
+                                    <label for="telephone">Your phone number<sup style="color: red">*</sup></label>
+                                    <input class="form-control" name="telephone" placeholder="+1-202-555-0111" type="tel" required>
+                                    <br>
+                                    <legend>Your message</legend>
+                                    <label for="message">Maximim length 2000 characters<sup style="color: red">*</sup></label><br>
+                                    <textarea name="message" maxlength="2000" id="message" placeholder="Lorem ipsum dolor sit amet" class="form-control">
+                                    </textarea>
+                                    <br>
+                                    <button type="submit" form="contactFormMobile" class="btn btn-lg btn-outline-primary w-100">Send message</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 </div>
