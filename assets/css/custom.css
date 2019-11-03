@@ -153,6 +153,11 @@ section.about {
   background: linear-gradient(to right, #ECE9E6, #ffffff);
 }
 
+section.contact {
+    background: #FFFFFF;
+    background: linear-gradient(to right, #ECE9E6, #ffffff);
+}
+
 section.bread {
   background: #673AB7;
   background: linear-gradient(to right, #673AB7, #512DA8);
@@ -179,6 +184,11 @@ ol[data-label="breadcrumb"]{
     }
 
     section.about {
+        background: #FFFFFF;
+        background: linear-gradient(to right, #ECE9E6, #ffffff);
+    }
+    
+    section.contact {
         background: #FFFFFF;
         background: linear-gradient(to right, #ECE9E6, #ffffff);
     }
